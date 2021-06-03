@@ -14,4 +14,4 @@ jobs:
     - name: gitleaks-action
       uses: zricethezav/gitleaks-action@master
       with:
-        config-path: .github/.gitleaks.toml.new
+        config-path: .github/.gitleaks.toml
