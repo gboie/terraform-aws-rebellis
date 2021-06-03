@@ -15,5 +15,3 @@ jobs:
       uses: zricethezav/gitleaks-action@master
       with:
         config-path: .github/.gitleaks.toml
-        repo-url: https://github.com/Sifchain/sifnode 
-        branch: develop
