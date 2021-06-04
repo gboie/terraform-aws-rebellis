@@ -1,8 +1,8 @@
 name: gitleaks
 
-#on: [push,pull_request]
-on:
-  workflow_dispatch:
+on: [push,pull_request]
+#on:
+#  workflow_dispatch:
   
 jobs:
   gitleaks:
